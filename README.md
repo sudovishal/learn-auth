@@ -1,22 +1,16 @@
-# create-svelte
+# Need for this project
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+This mini-project serves as a learning Full-Stack tutorial to build a complete authentication using SvelteKit, Tailwind, Prisma, Postgresql, Neon(Serverless pg).
+The features I aim to build is
+1. Standard Login/Register/Logout with Forgot Password.
+2. A Oauth login with Github.
+3. An Oauth login with Google.
+4. An Email Magic Link(Password-less Login).
+5. A Profile Page to upload an profile photo, update email, update password.
+6. An Empty Dashboard(A protected page) for any future work.
+7. Keeping it mobile-responsive.
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+# Running the project
 
 ```bash
 npm run dev
